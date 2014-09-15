@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/justinclayton/razor-server.png?label=ready&title=Ready)](https://waffle.io/justinclayton/razor-server)
 # Razor server
 
 Razor is an advanced provisioning application which can deploy both
