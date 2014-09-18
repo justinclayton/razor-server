@@ -10,10 +10,6 @@ ENV  JBOSS_HOME     $TORQUEBOX_HOME/jboss
 ENV  JRUBY_HOME     $TORQUEBOX_HOME/jruby
 ENV  PATH           $JRUBY_HOME/bin:$PATH
 
-ADD . /opt/razor
-WORKDIR /opt/razor
-RUN bundle install
-
 VOLUME /var/lib/razor/repo-store
 
 EXPOSE 8080

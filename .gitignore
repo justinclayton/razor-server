@@ -8,3 +8,5 @@ log/*
 /.ruby-version
 /ext/packaging/
 .vagrant/
+.bundle/
+vendor/
